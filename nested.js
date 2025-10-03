@@ -38,10 +38,40 @@
 // homework--
 
 
-const car = {
-    model: "toyota",
-    brand: 'corrola',
-    year:  2020,
+// const car = {
+//     model: "toyota",
+//     brand: 'corrola',
+//     year:  2020,
+// }
+// car['passenger capacity'] = 5 ;
+// console.log(car);
+
+
+
+
+
+const money = 10 ;
+
+if ( money >= 300){
+     console.log("mama tui to brolok");
+
 }
-car['passenger capacity'] = 5 ;
-console.log(car);
+else{
+    if(money > 100 ){
+        console.log("tui brolok  o na gorib o na");
+
+    }
+    else{
+        if (money < 50 ){
+            console.log(" mama tui kola kha");
+            
+        }
+        else{
+            console.log("tui sala gorib");
+        }
+    }
+}
+
+
+
+
